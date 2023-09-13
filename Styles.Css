@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.parte1 {
+    background-color: darkorange;
+    width: 95%; 
+    max-width: 500px; 
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    width: calc( 100% - 100px);
+}
+
+
+button {
+    border: none;
+    outline: none;
+    padding: 9px;
+    border-radius: 50px;
+    background-color: white;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+    transition: 1.5s;
+    transform: scale(1.5);
+}
+
+.parte2 {
+    margin-top: 30px;
+}
+
+.parte3 {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.lupa {
+    height: 20px;
+}
+
+h2 {
+    color: black;
+    font-size: 30px; 
+    font-weight: 900;
+}
+
+.temp {
+    width: 100px;
+    color: black;
+    margin-top: 30px;
+    font-weight: 600;
+    
+    
+}
+
+.descricao {
+    color: black;
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-weight: 600
+}
+
+.umidade {
+    color: black;
+    margin-top: 30px;
+    font-weight: 600;
+}
